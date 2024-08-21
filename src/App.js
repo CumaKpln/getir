@@ -11,8 +11,10 @@ function App() {
       <Header />
       <HeroSection />
       <Categories />
-      <MobileApp />
-      <Cards />
+      <div className="bg-[#f0f1f3] py-3 ">
+        <MobileApp />
+        <Cards />
+      </div>
       <Footer />
     </>
   );
